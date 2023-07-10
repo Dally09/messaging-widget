@@ -1,16 +1,3 @@
-class MessageWidget {
-  constructor(position = "bottom-right") {
-    this.position = this.getPosition(position);
-    this.open = false;
-    this.initialize();
-    this.injectStyles();
-  }
-
-  position = "";
-  open = false;
-  widgetContent = null;  
-}
-
 import { CLOSE_ICON, MESSAGE_ICON, styles } from "./asset.js";
 
 class MessageWidget {
@@ -154,8 +141,6 @@ class MessageWidget {
     }
   }
 }
-
-class MessagingWidget {}
 
 function initializeWidget() {
   return new MessageWidget();
