@@ -119,8 +119,8 @@ class MessageWidget {
   }
 }
 
-function initializeWidget() {
-  return new MessageWidget();
-}
+// function initializeWidget() {
+//   return new MessageWidget();
+// }
 
-initializeWidget();
+// initializeWidget();
