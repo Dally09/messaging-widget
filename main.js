@@ -14,11 +14,11 @@ class MessageWidget {
 import { CLOSE_ICON, MESSAGE_ICON, styles } from "./asset.js";
 
 class MessageWidget {
-  constructor(position = "bottom-right") { ... }
-
-  position = "";
-  open = false;
-  widgetContainer = null;
+  constructor(position = "bottom-right") {
+    position = "";
+    open = false;
+    widgetContainer = null;
+  }
 
   getPosition(position) {
     const [vertical, horizontal] = position.split("-");
@@ -155,7 +155,7 @@ class MessageWidget {
   }
 }
 
-class MessagingWidget { ... }
+class MessagingWidget {}
 
 function initializeWidget() {
   return new MessageWidget();
